@@ -7,13 +7,13 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/RoshanChaturpale/argo-repo-Kubernates.git
+    repoURL: https://github.com/RoshanChaturpale/ArgoCD-repo-Kubernates.git
     targetRevision: HEAD
     path: dev
 
   destination:
     server: https://kubernetes.default.svc
-    namespace: my-first-app
+    namespace: first-app
 
   syncPolicy:
     syncOptions:
