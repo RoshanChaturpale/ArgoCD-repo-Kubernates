@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: my-first-app
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: first-app
@@ -14,4 +14,4 @@ spec:
     spec:
       containers:
       - name: first-app
-        image: roshanchaturpale/my-personal-project-html-view:01
+        image: roshanchaturpale/html-doc:01
